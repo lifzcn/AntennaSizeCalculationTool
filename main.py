@@ -4,7 +4,6 @@
 # Date       ：2023/8/15
 # Author     ：LiFZ
 # Email      ：lifzcn@gmail.com
-# Version    ：python 3.10.0
 # Description：
 """
 
