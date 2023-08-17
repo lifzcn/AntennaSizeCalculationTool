@@ -158,7 +158,7 @@ class Ui_Form(object):
     # setupUi
 
     def retranslateUi(self, Form):
-        Form.setWindowTitle(QCoreApplication.translate("Form", u"\u5929\u7ebf\u5c3a\u5bf8\u8ba1\u7b97\u5de5\u5177", None))
+        Form.setWindowTitle(QCoreApplication.translate("Form", u"\u5929\u7ebf\u5c3a\u5bf8\u8ba1\u7b97\u5de5\u5177 V1.0 By LiFazheng", None))
         self.groupBox_1.setTitle(QCoreApplication.translate("Form", u"\u53c2\u6570\u8bbe\u7f6e", None))
         self.pushButton_1.setText(QCoreApplication.translate("Form", u"\u8ba1\u7b97", None))
         self.label_1.setText(QCoreApplication.translate("Form", u"\u4ecb\u8d28\u7684\u4ecb\u7535\u5e38\u6570\uff1aepsilon_r", None))

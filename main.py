@@ -54,12 +54,12 @@ class mainWindow(QWidget, Ui_Form):
         lambda_e = c / f / np.sqrt(epsilon_e)
 
         # 实际辐射单元长度
-        L = c / f * np.sqrt(epsilon_r) - 2 * Delta_L
+        L = c / 2 / f / np.sqrt(epsilon_e) - 2 * Delta_L
 
         xi_re = (epsilon_r + 1) / 2 + (epsilon_r - 1) / 2 * np.power(1 + 12 * H / L, -1 / 2)
 
         # 馈电点位置
-        L1 = L / 2 * (1 - 1 / np.sqrt(xi_re))
+        L1 = L / 2 * 1 / np.sqrt(xi_re)
 
         self.lineEdit_3.insert(str(round(W * np.power(10.0, 3), 3)) + " mm")
         self.lineEdit_4.setText(str(round(L * np.power(10.0, 3), 3)) + " mm")

@@ -23,7 +23,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>天线尺寸计算工具</string>
+   <string>天线尺寸计算工具 V1.0 By LiFazheng</string>
   </property>
   <widget class="QGroupBox" name="groupBox_1">
    <property name="geometry">
