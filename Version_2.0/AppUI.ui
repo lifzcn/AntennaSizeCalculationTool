@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>天线尺寸计算工具 V2.0 By LiFazheng</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox_1">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>351</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>矩形微带天线参数计算</string>
+   </property>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>29</y>
+      <width>311</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>参数设置</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_4">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>159</y>
+      <width>311</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>计算结果</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>389</x>
+     <y>10</y>
+     <width>231</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>同轴线计算</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
